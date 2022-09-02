@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    background-color: antiquewhite;
+}
+.mainwrap{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.general {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+}
+.general div {
+    display: flex;
+    flex-direction: column;
+}
+.general input, .general button {
+    width: 300px;
+}
+.about, .workexp {
+    display: flex;
+    flex-direction: column;
+}
+.mainwrap div {
+    width: 100%;
+}
+.generalpop {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.headerright {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    justify-content: flex-end;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.33);
+}
+.headerright h3, .headerleft h3 {
+    margin: 0;
+}
+#nameMain{
+    color: rgb(130, 69, 187);
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.about textarea{
+    width: 400px;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutpop {
+    font-weight: 100;
+    padding: 20px;
+}
+.aboutpop h2 {
+    color: rgba(0, 0, 0, 0.33);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 10px;
+}
+.workexppop, #workexp {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+#titlework {
+    color: rgba(0, 0, 0, 0.33);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 10px;
+}
+#workh2, #workh3 {
+    font-weight: 100;
+}
+#workh2 {
+    height: 10px;
+}
